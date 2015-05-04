@@ -1,0 +1,35 @@
+{
+    "name": "doavers/yii2-chat",
+    "description": "Yii2 extension for Chat plugin with admin lte",
+    "keywords": [
+        "yii2",
+        "adminlte",
+        "chat",
+        "jQuery",
+        "plugin",
+        "ajax"
+    ],
+    "homepage": "https://github.com/doavers/yii2-chat",
+    "type": "yii2-extension",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/doavers/yii2-chat/issues",
+        "source": "https://github.com/doavers/yii2-chat"
+    },
+    "authors": [
+        {
+            "name": "Doavers Light",
+            "homepage": "http://doavers.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "kartik-v/yii2-helpers": "*"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "doavers\\yii2-chat\\": ""
+        }
+    }
+}
